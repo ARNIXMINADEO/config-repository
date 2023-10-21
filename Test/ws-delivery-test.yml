@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: postgres://root:VMY7odnbSBSm2RS01SzHSe21TJV7rFxk@dpg-ckq3eoprfc9c73ep2tl0-a.oregon-postgres.render.com/delivery_test
+    url: postgres://root:VMY7odnbSBSm2RS01SzHSe21TJV7rFxk@dpg-ckq3eoprfc9c73ep2tl0-a.oregon-postgres.render.com/oneway_test
     username: root
     password: VMY7odnbSBSm2RS01SzHSe21TJV7rFxk
   jpa:
