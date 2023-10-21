@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://dpg-ckq3pq62eoec73906vmg-a.oregon-postgres.render.com/delivery_test
-    username: root
-    password: eaaIhlmbkMnZUMjqVDdukpwj53FM8MjT
+    url: jdbc:postgres://mequjyjm:a61CzCFErmhLtZ8sbImqWeoeQxovVeHU@isabelle.db.elephantsql.com/mequjyjm
+    username: mequjyjm
+    password: a61CzCFErmhLtZ8sbImqWeoeQxovVeHU
   jpa:
     hibernate:
       ddl-auto: update
