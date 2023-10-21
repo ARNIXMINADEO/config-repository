@@ -1,9 +1,9 @@
 spring:
   datasource:
-    driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:3306/delivery_test
+    driver-class-name: org.postgresql.Driver
+    url: postgres://root:VMY7odnbSBSm2RS01SzHSe21TJV7rFxk@dpg-ckq3eoprfc9c73ep2tl0-a.oregon-postgres.render.com/delivery_test
     username: root
-    password:
+    password: VMY7odnbSBSm2RS01SzHSe21TJV7rFxk
   jpa:
     hibernate:
       ddl-auto: update
