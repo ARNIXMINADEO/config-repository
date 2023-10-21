@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgres://isabelle.db.elephantsql.com/mequjyjm
+    url: jdbc:postgresql://isabelle.db.elephantsql.com/mequjyjm
     username: mequjyjm
     password: a61CzCFErmhLtZ8sbImqWeoeQxovVeHU
   jpa:
