@@ -1,9 +1,9 @@
 spring:
   datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://isabelle.db.elephantsql.com/mequjyjm
-    username: mequjyjm
-    password: a61CzCFErmhLtZ8sbImqWeoeQxovVeHU
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/delivery_test
+    username: root
+    password:
   jpa:
     hibernate:
       ddl-auto: update
