@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://onewayserver.online:7001/delivery_test
-    username: root
-    password: root
+    url: jdbc:mariadb://10.5.2.144:3306/delivery_test
+    username: delivery-backend
+    password: onewayservice
   jpa:
     hibernate:
       ddl-auto: update
