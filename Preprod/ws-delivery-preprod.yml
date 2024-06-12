@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://10.5.2.144:3306/delivery_test
+    url: jdbc:mariadb://192.168.0.16:3306/delivery_test
     username: delivery-backend
     password: onewayservice
   jpa:
