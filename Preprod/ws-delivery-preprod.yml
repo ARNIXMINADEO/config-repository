@@ -4,9 +4,20 @@ spring:
     url: jdbc:mariadb://192.168.0.16:3306/delivery_test
     username: delivery-backend
     password: onewayservice
+    hikari:
+      idle-timeout: 300000
+      minimum-idle: 2
+      maximum-pool-size: 20
+
+
   jpa:
     hibernate:
       ddl-auto: update
-
+    show-sql: true    
+        properties:
+            hibernate: 
+                format_sql: true
+                jdbc:
+                    time_zone: America/Asuncion
 server:
   port: 8080
