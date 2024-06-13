@@ -10,10 +10,10 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true    
-        properties:
-            hibernate: 
-                format_sql: true
-                jdbc:
-                    time_zone: America/Asuncion
+      properties:
+          hibernate: 
+              format_sql: true
+              jdbc:
+                  time_zone: America/Asuncion
 server:
   port: 8080
