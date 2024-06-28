@@ -1,5 +1,6 @@
 spring:
   datasource:
+    time-zone: America/Asuncion
     driver-class-name: org.mariadb.jdbc.Driver
     url: jdbc:mariadb://192.168.0.16:3306/delivery_test
     username: delivery-backend
@@ -14,6 +15,6 @@ spring:
       hibernate: 
         format_sql: true
         jdbc:
-          time_zone: UTC
+          time_zone: America/Asuncion
 server:
   port: 8080
