@@ -2,8 +2,8 @@ spring:
   datasource:
     time-zone: America/Asuncion
     driver-class-name: org.mariadb.jdbc.Driver
-     url: jdbc:mariadb://192.168.0.16:3306/delivery_test
-#    url: jdbc:mariadb://190.104.182.47:7001/delivery_test
+    # url: jdbc:mariadb://192.168.0.16:3306/delivery_test
+    url: jdbc:mariadb://190.104.182.47:7001/delivery_test
     username: delivery-backend
     password: onewayservice
 
