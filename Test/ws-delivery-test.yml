@@ -1,4 +1,14 @@
 spring:
+
+  security:
+    jwt:
+      secret-key: o6Q2wFBee1Gpk8qRnLANhxITP9WSA8MI # Change this value to a secure key
+      expiration-time: 86400000 # 1 day 
+      token-prefix: Bearer
+      refresh-token:
+        expiration-time: 604800000 # 7 days
+        token-prefix: Bearer
+
   datasource:
     time-zone: America/Asuncion
     driver-class-name: org.mariadb.jdbc.Driver
