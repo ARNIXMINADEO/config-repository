@@ -1,6 +1,6 @@
 spring:
 
-  security:
+  security-config:
     jwt:
       secret-key: o6Q2wFBee1Gpk8qRnLANhxITP9WSA8MI # Change this value to a secure key
       expiration-time: 86400000 # 1 day 
