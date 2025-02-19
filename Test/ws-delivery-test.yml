@@ -2,7 +2,7 @@ spring:
 
   security-config:
     jwt:
-      secret-key: o6Q2wFBee1Gpk8qRnLANhxITP9WSA8MI # Change this value to a secure key
+      secret-key: tlCCoTBOOSzY9dd0u7EmKkxC6wk+0OYGjqt9NDlkGMw= # Change this value to a secure key
       expiration-time: 86400000 # 1 day 
       token-prefix: Bearer
       refresh-token:
