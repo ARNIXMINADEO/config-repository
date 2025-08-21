@@ -30,3 +30,9 @@ spring:
           time_zone: America/Asuncion
 server:
   port: 8080
+
+management:
+  metrics:
+    enable:
+      process: false
+      system: false
